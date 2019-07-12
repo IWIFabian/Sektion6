@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kaffe">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/imageview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tisch"
+        android:layout_width="255dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="374dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tisch" />
+
+    <TextView
+        android:id="@+id/KaffeAnzeige"
+        android:layout_width="283dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+    <CheckBox
+        android:id="@+id/sahne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="84dp"
+        android:text="@string/sahne"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
+
+    <CheckBox
+        android:id="@+id/keks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/keks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sahne" />
+
+    <TextView
+        android:id="@+id/Kosten"
+        android:layout_width="111dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="104dp"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/KaffeAnzeige" />
+
+    <Button
+        android:id="@+id/btnBestellen"
+        android:layout_width="269dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="43dp"
+        android:text="@string/bestellen"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Kosten" />
+
+</android.support.constraint.ConstraintLayout>

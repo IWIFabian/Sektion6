@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sektion4_en</string>
+    <string name="bestellen">Order</string>
+    <string name="kaffe">Coffee</string>
+    <string name="kaffe_bestellen">Coffee</string>
+    <string name="keks">cookie</string>
+    <string name="name">Name</string>
+    <string name="sahne">" cream"</string>
+    <string name="tischnummer">Table number</string>
+    <string name="weiter">Continue</string>
+    <string name="imageview">ImageView</string>
+</resources>

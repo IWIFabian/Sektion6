@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sektion4</string>
+    <string name="kaffe">Kaffe</string>
+    <string name="sahne">Sahne</string>
+    <string name="keks">Keks</string>
+    <string name="imageview">ImageView</string>
+    <string name="bestellen">Bestellen</string>
+    <string name="kaffe_bestellen">Kaffe Bestellen</string>
+    <string name="name">Name</string>
+    <string name="tischnummer">Tischnummer</string>
+    <string name="weiter">Weiter</string>
+</resources>
